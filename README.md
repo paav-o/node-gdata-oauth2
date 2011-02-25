@@ -1,8 +1,15 @@
 node-gdata
 ==========
 
+Version 0.1.0
+
 A Google Data API client for node.js. Only the latest release (version 3)
 of the GData protocol supported.
+
+Install
+-------
+
+    npm install gdata
 
 Requirements
 ------------
@@ -25,3 +32,9 @@ Example (Picasa Web Albums)
         console.log('album: ' + entry.getTitle());
       });
     });
+
+
+Work in progress
+----------------
+
+getAccessToken doesn't work yet
